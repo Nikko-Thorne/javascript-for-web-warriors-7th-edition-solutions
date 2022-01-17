@@ -10,21 +10,23 @@
 */
 
 //variable for menu
-let menuItems = document.getElementByClassName("menuItem");
-//for loop 
-for(i = 0; i < menuItems.length; i++){
-    menuItems[i].addEventListener("click", calcTotal());
-          let orderTotal = 0;
-          for(i = 0; i < 4; i++) {
+let menuItems = document.getElementsByClassName("menuItem");
+for(let i = 0; i < menuItems.length; i++) {
+menuItems[i].addEventListener("click", calcTotal);
+}
+        
+
+//Function for calcTotal
+function calcTotal(){ 
+let orderTotal = 0;
+          for(i = 0; i < 5; i++) {
               if(menuItems[i].checked) {
-                 orderTotal += (Number(menuItems[i].value) * 1);
+                orderTotal += (Number(menuItems[i].value) * 1);
               }
               document.getElementById("billTotal").innerHTML = formatCurrency(orderTotal);
                  }
                   };
                          
-
-
 
  // Function to display a numeric value as a text string in the format $##.## 
  function formatCurrency(value) {
