@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 4
+      Hands-on Project 4-1
+
+      Author: Nikko Thorne
+      Date:   01/22/2022
+
+      Filename: project04-01.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 4-1</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="project04-01_txt.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 4-1
+      </h1>
+   </header>
+
+   <article>
+      <h2>Moving Estimate</h2>
+      <form>
+         <label for="wgtBox">Estimated weight @ $0.50 per pound</label>
+         <input id="wgtBox" /> <span>lbs.</span>
+         <label for="distBox">Estimated distance @ $0.75 per mile</label>
+         <input id="distBox" /> <span> miles</span>
+         <label for="setupBox" id="setupLabel">Setup and Installation (add $500)</label>
+         <input type="checkbox" id="setupBox" />
+         <div id="border"></div>
+         <label>Estimated Moving Cost</label>
+         <div id="totalBox"></div> <span id="msgBox"></span>
+      </form>
+   </article>
+</body>
+</html>
