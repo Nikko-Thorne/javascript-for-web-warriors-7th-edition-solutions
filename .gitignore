@@ -7,3 +7,17 @@ ThorneCh4Projects.docx
 ThorneCh5-Projects.docx
 ThorneCh5-Projects.gdoc
 Thorne-Ch5-Case-Project.gdoc
+caseproject5/.gitattributes
+caseproject5/nbproject/private/private.properties
+caseproject5/nbproject/private/private.xml
+caseproject5/nbproject/project.properties
+caseproject5/nbproject/project.xml
+caseproject5/public_html/about.css
+caseproject5/public_html/about.html
+caseproject5/public_html/about.js
+caseproject5/public_html/Home.css
+caseproject5/public_html/home.html
+caseproject5/public_html/home.js
+caseproject5/public_html/index.html
+*.gdoc
+Thorne-Html-Extra-Credit.docx

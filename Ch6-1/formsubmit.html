@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 6
+      Hands-on Project 6-1
+
+      Author: Nikko Thorne
+      Date:   02/05/2022
+
+      Filename: formsubmit.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 6-1</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script>
+      window.addEventListener("load", function(){   
+         // Retrieve the field/value pairs from the URL
+         var formData = location.search.slice(1);
+         formData = formData.replace(/\+/g," ");
+         formData = decodeURIComponent(formData);
+         let formFields = formData.split(/[&=]/g);
+
+         // Write the field values to the account table
+         document.getElementById("username").textContent = formFields[1]; 
+         document.getElementById("email").textContent = formFields[3]; 
+         document.getElementById("pwd").textContent = formFields[5]; 
+         document.getElementById("pwd2").textContent = formFields[7];          
+      } );   
+   </script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 6-1
+      </h1>
+   </header>
+
+   <section>
+      <h1>Account Information</h1>
+      <table id="account">
+         <tr>
+            <td>Username</td>
+            <td><span id="username"></span></td>
+         </tr>
+         <tr>
+            <td>Email</td>
+            <td><span id="email"></span></td>
+         </tr> 
+         <tr>
+            <td>Password</td>
+            <td><span id="pwd"></span></td>
+         </tr>
+         <tr>
+            <td>Confirm Password</td>
+            <td><span id="pwd2"></span></td>
+         </tr>             
+      </table>
+   </section>
+</body>
+</html>
