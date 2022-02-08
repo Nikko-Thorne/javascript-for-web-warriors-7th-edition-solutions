@@ -1,0 +1,261 @@
+/*  JavaScript 7th Edition
+    Chapter 6
+    Hands-on Project 6-5
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   background: white;
+   width: 960px;   
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+}
+
+/* main content */
+article {
+   text-align: left;
+   background: #FFDB70;
+   position: relative;
+}
+
+
+
+/*-------------------- Project Styles ------------------*/
+
+/* HTML and Body styles */
+
+
+article {
+   background: #FFDB70;
+   font-family: Verdana, Geneva, sans-serif; 
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   justify-content: space-around;
+}
+
+section h1 {
+   font-size: 1.4em;
+   margin: 20px 0;
+}
+
+
+
+/* Form Layout Styles */
+
+section fieldset {
+   padding: 0;
+}
+
+section fieldset:first-of-type {
+   margin: 10px 0px;
+   padding: 18px;
+   border-right: none;
+   border-bottom: none;
+   border-left: 4px groove rgb(165, 255, 255);
+   border-top: 4px groove rgb(165, 255, 255);
+   border-radius: 25px;
+   border-top-right-radius: 0px;
+   border-bottom-left-radius: 0px;   
+}
+
+section fieldset:last-of-type {
+   margin: 10px 0px;
+   border-top: none;
+   border-left: none;
+   border-right: 4px groove rgb(165, 255, 255);
+   border-bottom: 4px groove rgb(165, 255, 255);
+   border-radius: 25px;
+   border-top-right-radius: 0px;
+   border-bottom-left-radius: 0px;
+}
+
+section label {
+   display: block;
+   float: left;
+   clear: left;
+   margin: 3px;
+   width: 240px;
+   font-size: 0.8em;
+   color: rgb(101, 101, 101);
+}
+
+section input, section select {
+   display: block;
+   float: left;
+   margin: 3px 0px;
+   width: 200px;
+   color: rgb(101, 101, 101);
+}
+
+section input[type="checkbox"] {
+   width: 25px;
+}
+
+section input#banquetBox {
+   width: 4em;
+}
+
+section select {
+   font-size: 0.75em;
+   color: rgb(101, 101, 101);
+}
+
+section span {
+   display: block;
+   width: 100px;
+   float: left;
+   margin: 3px 0px 3px 5px;
+   font-size: 0.8em;
+   color: rgb(101, 101, 101);
+}
+
+section label.cardLabel {
+   display: inline-block;
+   width: 50px;
+   float: none;
+}
+
+section input[type='radio'] {
+   width: 20px;
+   display: inline-block;
+}
+
+section img {
+   display: inline
+}
+
+section input#subButton, section input#regSubmit {
+   background-color: rgb(69, 149, 151);
+   color: rgb(216, 245, 245);
+   border-radius: 20px;
+   float: none;
+   display: block;
+   font-size: 1.1em;
+   height: 30px;
+   width: 150px;
+   clear: left;
+   margin: 10px auto;
+}
+
+section fieldset#cards {
+   border: none;
+}
+
+aside#reg1Aside table {
+   width: 100%;
+}
+
+aside#reg2Aside table {
+   width: auto;
+   margin: 20px auto;
+}
+
+aside table caption {
+   font-size: 1.2em;
+   font-weight: normal;
+   text-align: center;
+   letter-spacing: 0.1em;
+   margin: 4px 0px 12px 0px;
+   caption-side: top;
+   color: rgb(101, 101, 101);
+}
+
+aside table th {
+   vertical-align: top;
+   font-weight: normal;
+   text-align: left;
+   font-size: 0.8em;
+   color: rgb(101, 101, 101);
+   padding-right: 15px;
+}
+
+aside table td {
+   vertical-align: top;
+   font-size: 0.8em;
+   letter-spacing: 0.1em;
+   width: 140px;
+   background-color: transparent;
+   color: rgb(101, 101, 101);
+}
+
+
+
+
+aside table tr:last-of-type th, aside table tr:last-of-type td {
+   border-top: 1px solid rgb(101, 101, 101);
+}
+
+
+/* Validation Styles */
+
+input:focus, select:focus {
+   background-color: rgb(245, 245, 140);
+}
+
+input#fnBox:focus:valid,
+input#lnBox:focus:valid,
+input#groupBox:focus:valid,
+input#mailBox:focus:valid,
+input#phoneBox:focus:valid {
+   background-color: rgb(220, 255, 220);
+}
+
+input#fnBox:focus:invalid,
+input#lnBox:focus:invalid,
+input#groupBox:focus:invalid,
+input#mailBox:focus:invalid,
+input#phoneBox:focus:invalid {
+   background-color: rgb(255, 232, 232);
+}
+

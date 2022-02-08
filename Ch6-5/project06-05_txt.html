@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 6
+      Hands-on Project 6-5
+
+      Author: Nikko Thorne
+      Date:   02/07/2022
+
+      Filename: project06-05.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 6-5</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="project06-05_txt.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 6-5
+      </h1>
+   </header>
+
+   <article>
+   <section>
+      <h1>Registration Page</h1>
+      <form id="register" name="register" method="get" action="formsubmit.html">
+         <fieldset id="contactInfo">    
+            <label for="fnBox">First Name*</label>
+            <input name="firstName" id="fnBox" type="text" required />
+
+            <label for="lnBox">Last Name*</label>
+            <input name="lastName" id="lnBox" type="text" required />
+
+            <label for="groupBox">Company or University</label>
+            <input name="group" id="groupBox" type="text" />
+
+            <label for="mailBox">E-mail*</label>
+            <input name="email" id="mailBox" type="email" required />
+
+            <label for="phoneBox">Phone Number*</label>
+            <input name="phoneNumber" id="phoneBox" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+                   required placeholder="(nnn) nnn-nnnn" />
+         </fieldset>
+         
+         <fieldset id="confChoices">
+            <label for="sessionBox">Session Packs</label>
+            <select id="sessionBox" name="sessionOption" size="5" required>
+               <option value="95">Exhibits Only ($95)</option>
+               <option value="215">3 Session Pack ($215)</option>
+               <option value="420">6 Session Pack ($420)</option>
+               <option value="595">Session Pass ($595)</option>
+               <option value="845">VIP Pass ($845)</option>
+            </select>
+            <label for="banquet">MAS22 Banquet ($55 ea.)</label>
+            <input type="number" min="0" max="10" id="banquetBox" name="banquetGuests" /><span> attendees</span>          
+            
+            <label for="mediaPack">MAS22 Media Pack ($115)</label>
+            <input type="checkbox" name="mediaPack" id="mediaCB" value="115" />  
+               
+         </fieldset> 
+         
+         <input id="regSubmit" type="submit" value="continue" />
+      </form>
+   </section>
+   
+   <aside id="reg1Aside">
+      <table>
+         <caption>Shopping Cart</caption>
+         <tr><th>Name</th><td><span id="regName"></span></td></tr>
+         <tr><th>Company</th><td><span id="regGroup"></span></td></tr>
+         <tr><th>E-mail</th><td><span id="regEmail"></span></td></tr>         
+         <tr><th>Phone</th><td><span id="regPhone"></span></td></tr>
+         <tr><th>Session</th><td><span id="regSession"></span></td></tr>
+         <tr><th>Banquet Guests ($55 ea.)</th><td><span id="regBanquet"></span></td></tr> 
+         <tr><th>Media Pack ($115)</th><td><span id="regPack"></span></td></tr>
+         <tr><th>TOTAL</th><td><span id="regTotal"></span></td></tr> 
+      </table>                                               
+   </aside>
+   </article>
+</body>
+</html>
