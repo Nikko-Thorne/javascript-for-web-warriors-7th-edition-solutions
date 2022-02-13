@@ -1,0 +1,326 @@
+{ "directory" : [
+   {
+      "id" : "emp850-02",
+      "firstName" : "Hyun",
+      "lastName" : "Choi",
+      "position" : "Accounting Specialist I",
+      "dept" : "CU Accounting Services",
+      "email" : "hyun.choi@ccul.example.com",
+      "phone" : "800-555-8142"
+   },
+   {
+      "id" : "emp300-01",
+      "firstName" : "Dan",
+      "lastName" : "Moses",
+      "position" : "VP of Governmental Affairs",
+      "dept" : "Advocacy",
+      "email" : "dan.moses@ccul.example.com",
+      "phone" : "800-555-3193"
+   },
+   {
+      "id" : "emp300-02",
+      "firstName" : "Michael",
+      "lastName" : "Heller",
+      "position" : "VP of Governmental Affairs",
+      "dept" : "Advocacy",
+      "email" : "michael.heller@ccul.example.com",
+      "phone" : "800-555-4488"
+   },
+   {
+      "id" : "emp500-02",
+      "firstName" : "Betty",
+      "lastName" : "Moran",
+      "position" : "Director of Meetings & Conferences",
+      "dept" : "Professional Development",
+      "email" : "betty.moran@ccul.example.com",
+      "phone" : "800-555-6586"
+   },
+   {
+      "id" : "emp800-02",
+      "firstName" : "Joe",
+      "lastName" : "Brice",
+      "position" : "Corporate Accounting Manager",
+      "dept" : "Corporate Accounting",
+      "email" : "joe.brice@ccul.example.com",
+      "phone" : "800-555-7769"
+   },
+   {
+      "id" : "emp100-01",
+      "firstName" : "Jeremy",
+      "lastName" : "Rangel",
+      "position" : "President and CEO",
+      "dept" : "Executive",
+      "email" : "jeremy.rangel@ccul.example.com",
+      "phone" : "800-555-3973"
+   },
+   {
+      "id" : "emp200-01",
+      "firstName" : "Gina",
+      "lastName" : "Gordon-Ball",
+      "position" : "Director of Administration",
+      "dept" : "Administrative",
+      "email" : "gina.gordon.ball@ccul.example.com",
+      "phone" : "800-555-2551"
+   },
+   {
+      "id" : "emp950-01",
+      "firstName" : "Walter",
+      "lastName" : "Ball",
+      "position" : "VP, Public Relations & Communications",
+      "dept" : "PR and Communications",
+      "email" : "walter.ball@ccul.example.com",
+      "phone" : "800-555-5272"
+   },
+   {
+      "id" : "emp300-03",
+      "firstName" : "Rita",
+      "lastName" : "Lockhart",
+      "position" : "Director of Member Engagement",
+      "dept" : "Advocacy",
+      "email" : "rita.lockhart@ccul.example.com",
+      "phone" : "800-555-2772" 
+   },
+   {
+      "id" : "emp100-02",
+      "firstName" : "Rita",
+      "lastName" : "Strickler",
+      "position" : "EVP/CFO, Prof. League Resources, Inc.",
+      "dept" : "Executive",
+      "email" : "rita.strickler@ccul.example.com",
+      "phone" : "800-555-1921"
+   },
+   {
+      "id" : "emp100-03",
+      "firstName" : "Sean",
+      "lastName" : "Miles",
+      "position" : "EVP/COO, Association Services",
+      "dept" : "Executive",
+      "email" : "sean.miles@ccul.example.com",
+      "phone" : "800-555-2075"
+   },
+   {
+      "id" : "emp400-01",
+      "firstName" : "Arthur",
+      "lastName" : "Delvalle",
+      "position" : "VP, Compliance & Regulatory Counsel",
+      "dept" : "Compliance",
+      "email" : "arthur.delvalle@ccul.example.com",
+      "phone" : "800-555-3263" 
+   },
+   {
+      "id" : "emp950-02",
+      "firstName" : "Steven",
+      "lastName" : "Miller",
+      "position" : "Director of Communications",
+      "dept" : "PR and Communications",
+      "email" : "steven.miller@ccul.example.com",
+      "phone" : "800-555-5585" 
+   },
+   {
+      "id" : "emp900-04",
+      "firstName" : "David",
+      "lastName" : "Chavez",
+      "position" : "HR Specialist",
+      "dept" : "Human Resources",
+      "email" : "david.chavez@ccul.example.com",
+      "phone" : "800-555-8198" 
+    },
+   {
+      "id" : "emp950-03",
+      "firstName" : "Anna",
+      "lastName" : "Garcia",
+      "position" : "Communications Specialist ",
+      "dept" : "PR and Communications",
+      "email" : "anna.garcia@ccul.example.com",
+      "phone" : "800-555-8779"
+   },
+   {
+      "id" : "emp200-02",
+      "firstName" : "Diana",
+      "lastName" : "Rust",
+      "position" : "Administrative Assistant ",
+      "dept" : "Administrative",
+      "email" : "diana.rust@ccul.example.com",
+      "phone" : "800-555-8029" 
+   },
+   {
+      "id" : "emp950-04",
+      "firstName" : "Oscar",
+      "lastName" : "Nguyen",
+      "position" : "Communications Specialist ",
+      "dept" : "PR and Communications",
+      "email" : "oscar.nguyen@ccul.example.com",
+      "phone" : "800-555-9909" 
+   },
+   {
+      "id" : "emp400-02",
+      "firstName" : "Vanita",
+      "lastName" : "Pham",
+      "position" : "Compliance Manager/Associate Counsel",
+      "dept" : "Compliance",
+      "email" : "vanita.pham@ccul.example.com",
+      "phone" : "800-555-5106" 
+   },
+   {
+      "id" : "emp850-01",
+      "firstName" : "John",
+      "lastName" : "Flynn",
+      "position" : "Director of Credit Union Accounting Services",
+      "dept" : "CU Accounting Services",
+      "email" : "john.flynn@ccul.example.com",
+      "phone" : "800-555-7731"
+   },
+   {
+      "id" : "emp400-03",
+      "firstName" : "Merwin",
+      "lastName" : "Garland",
+      "position" : "Compliance Coordinator",
+      "dept" : "Compliance",
+      "email" : "merwin.garland@ccul.example.com",
+      "phone" : "800-555-9113" 
+   },
+   {
+      "id" : "emp700-03",
+      "firstName" : "Maria",
+      "lastName" : "Sanchez",
+      "position" : "Asst. Director of Comprehensive Audits",
+      "dept" : "Audit Services",
+      "email" : "maria.sanchez@ccul.example.com",
+      "phone" : "800-555-6039"
+   },
+   {
+      "id" : "emp600-01",
+      "firstName" : "Michael",
+      "lastName" : "Baker",
+      "position" : "Director of Cooperative Initiatives",
+      "dept" : "Cooperative Initiatives",
+      "email" : "michael.baker@ccul.example.com",
+      "phone" : "800-555-6265" 
+   },
+   {
+      "id" : "emp900-03",
+      "firstName" : "Mary",
+      "lastName" : "Holloway",
+      "position" : "HR Specialist",
+      "dept" : "Human Resources",
+      "email" : "mary.holloway@ccul.example.com",
+      "phone" : "800-555-9846"
+   },
+   {
+      "id" : "emp200-03",
+      "firstName" : "Vincent",
+      "lastName" : "Barry",
+      "position" : "Administrative Assistant ",
+      "dept" : "Administrative",
+      "email" : "vincent.barry@ccul.example.com",
+      "phone" : "800-555-2935" 
+   },
+   {
+      "id" : "emp850-03",
+      "firstName" : "Carolyn",
+      "lastName" : "Marks",
+      "position" : "Accounting Specialist II",
+      "dept" : "CU Accounting Services",
+      "email" : "carolyn.marks@ccul.example.com",
+      "phone" : "800-555-1688" 
+   },
+   {
+      "id" : "emp990-02",
+      "firstName" : "Darrell",
+      "lastName" : "Anderson",
+      "position" : "IT Specialist",
+      "dept" : "IT Services",
+      "email" : "darrell.anderson@ccul.example.com",
+      "phone" : "800-555-4452" 
+   },
+   {
+      "id" : "emp800-03",
+      "firstName" : "Terry",
+      "lastName" : "Woodward",
+      "position" : "Asst. Corporate Accounting Manager",
+      "dept" : "Corporate Accounting",
+      "email" : "terry.woodward@ccul.example.com",
+      "phone" : "800-555-9256" 
+   },
+   {
+      "id" : "emp650-01",
+      "firstName" : "Kiaria",
+      "lastName" : "Coffman",
+      "position" : "SVP, Credit Union Resources",
+      "dept" : "Credit Union Resources",
+      "email" : "kiari.coffman@ccul.example.com",
+      "phone" : "800-555-4963" 
+   },
+   {
+      "id" : "emp700-02",
+      "firstName" : "Douglas",
+      "lastName" : "Moorman",
+      "position" : "Director of Comprehensive Audits",
+      "dept" : "Audit Services",
+      "email" : "douglas.moorman@ccul.example.com",
+      "phone" : "800-555-9019" 
+   },
+   {
+      "id" : "emp700-01",
+      "firstName" : "Mary",
+      "lastName" : "Varney",
+      "position" : "VP, Audit Services",
+      "dept" : "Audit Services",
+      "email" : "mary.varney@ccul.example.com",
+      "phone" : "800-555-5591" 
+   },
+   {
+      "id" : "emp750-01",
+      "firstName" : "Jaina",
+      "lastName" : "Chatterjee",
+      "position" : "AVP, Business Development",
+      "dept" : "Business Development",
+      "email" : "jaina.chatterjee@ccul.example.com",
+      "phone" : "800-555-2456" 
+   },
+   {
+      "id" : "emp800-01",
+      "firstName" : "Lon",
+      "lastName" : "Tiza",
+      "position" : "Controller ",
+      "dept" : "Corporate Accounting",
+      "email" : "lon.tiza@ccul.example.com",
+      "phone" : "800-555-2473" 
+   },
+   {
+      "id" : "emp900-01",
+      "firstName" : "Susan",
+      "lastName" : "Gibbons",
+      "position" : "VP, Human Resources",
+      "dept" : "Human Resources",
+      "email" : "susan.gibbons@ccul.example.com",
+      "phone" : "800-555-4350" 
+   },
+   {
+      "id" : "emp500-01",
+      "firstName" : "Stephanie",
+      "lastName" : "Tewksbury",
+      "position" : "VP of Professional Development",
+      "dept" : "Professional Development",
+      "email" : "stephanie.tewksbury@ccul.example.com",
+      "phone" : "800-555-2682" 
+   },
+   {
+      "id" : "emp900-02",
+      "firstName" : "John",
+      "lastName" : "Baker",
+      "position" : "HR Manager",
+      "dept" : "Human Resources",
+      "email" : "john.baker@ccul.example.com",
+      "phone" : "800-555-6498" 
+   },
+   {
+      "id" : "emp990-01",
+      "firstName" : "Richard",
+      "lastName" : "Coates",
+      "position" : "IT Manager",
+      "dept" : "IT Services",
+      "email" : "richard.coates@ccul.example.com",
+      "phone" : "800-555-7650" 
+   }
+]}
