@@ -1,0 +1,27 @@
+{ 
+   "title" : "Spassky Applauds Fisher",
+   "description" : "Fisher (White) vs. Spassky (Black). World Championship Match (1972) Game 6. Queen's Gambit Declined: Tartakower Defense. Exchange Variation",
+   "board" : [
+               ["BR", "BN", "BB", "BQ", "BK", "BB", "BN", "BR"],
+               ["BP", "BP", "BP", "BP", "BP", "BP", "BP", "BP"],
+               ["", "", "", "", "", "", "", ""],
+               ["", "", "", "", "", "", "", ""],
+               ["", "", "", "", "", "", "", ""],
+               ["", "", "", "", "", "", "", ""],
+               ["WP", "WP", "WP", "WP", "WP", "WP", "WP", "WP"],                     
+               ["WR", "WN", "WB", "WQ", "WK", "WB", "WN", "WR"]
+            ],                     
+   "moves" : [
+      "Pc2-c4", "Pe7-e6",  "Ng1-f3",  "Pd7-d5", "Pd2-d4",  "Ng8-f6",  "Nb1-c3", "Bf8-e7", "Bc1-g5", "0-0", 
+      "Pe2-e3", "Ph7-h6",  "Bg5-h4",  "Pb7-b6", "Pc4xd5",  "Nf6xd5",  "Bh4xe7", "Qd8xe7", "Nc3xd5", "Pe6xd5",
+      "Ra1-c1", "Bc8-e6",  "Qd1-a4",  "Pc7-c5", "Qa4-a3",  "Rf8-c8",  "Bf1-b5", "Pa7-a6", "Pd4xc5", "Pb6xc5",
+      "0-0",    "Ra8-a7",  "Bb5-e2",  "Nb8-d7", "Nf3-d4",  "Qe7-f8",  "Nd4xe6", "Pf7xe6", "Pe3-e4!", "Pd5-d4", 
+      "Pf2-f4", "Qf8-e7",  "Pe4-e5",  "Rc8-b8", "Be2-c4",  "Kg8-h8",  "Qa3-h3", "Nd7-f8", "Pb2-b3", "Pa6-a5",
+      "Pf4-f5", "Pe6xf5",  "Rf1xf5",  "Nf8-h7", "Rc1-f1",  "Qe7-d8",  "Qh3-g3", "Ra7-e7", "Ph2-h4", "Rb8-b7",
+      "Pe5-e6", "Rb7-c7",  "Qg3-e5",  "Qd8-e8", "Pa2-a4",  "Qe8-d8",  "Rf1-f2", "Qd8-e8", "Rf2-f3", "Qe8-d8",
+      "Bc4-d3", "Qd8-e8",  "Qe5-e4",  "Nh7-f6", "Rf5xf6",  "Pg7xf6",  "Rf3xf6", "Kh8-g8", 
+      "Bd3-c4", "Kg8-h8",  "Qe4-f4!!!",  "1-0"
+      ],
+   "move" : -1
+}      
+   

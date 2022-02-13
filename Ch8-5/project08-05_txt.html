@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 8
+      Hands-on Project 8-5
+
+      Author: Nikko Thorne
+      Date:   02/13/2022
+
+      Filename: project08-05.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 8-5</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="project08-05_txt.js" defer></script>
+   <script src="objects_txt.js" defer></script>
+   
+</head>
+
+<body>
+   <header>
+      <h1>Hands-on Project 8-5</h1>
+   </header>
+
+   <section>
+      <p id="intro"><label for="getLog">Load a Game Log</label> <input type="file" id="getLog" /></p>
+      <h1 id="title"></h1>
+      <p id="description"></p>
+      <div id="blackBox"></div>
+      <table id="chessboard">
+         <tr>
+            <td class="notation col">8</td>
+            <td id="a8" class="light"></td>
+            <td id="b8" class="dark"></td>
+            <td id="c8" class="light"></td>
+            <td id="d8" class="dark"></td>
+            <td id="e8" class="light"></td>
+            <td id="f8" class="dark"></td>
+            <td id="g8" class="light"></td>
+            <td id="h8" class="dark"></td>
+         </tr>
+            <td class="notation col">7</td>
+            <td id="a7" class="dark"></td>
+            <td id="b7" class="light"></td>
+            <td id="c7" class="dark"></td>
+            <td id="d7" class="light"></td>
+            <td id="e7" class="dark"></td>
+            <td id="f7" class="light"></td>
+            <td id="g7" class="dark"></td>
+            <td id="h7" class="light"></td>         
+         </tr>
+         <tr>
+            <td class="notation col">6</td>
+            <td id="a6" class="light"></td>
+            <td id="b6" class="dark"></td>
+            <td id="c6" class="light"></td>
+            <td id="d6" class="dark"></td>
+            <td id="e6" class="light"></td>
+            <td id="f6" class="dark"></td>
+            <td id="g6" class="light"></td>
+            <td id="h6" class="dark"></td>            
+         </tr>
+         <tr>
+            <td class="notation col">5</td>
+            <td id="a5" class="dark"></td>
+            <td id="b5" class="light"></td>
+            <td id="c5" class="dark"></td>
+            <td id="d5" class="light"></td>
+            <td id="e5" class="dark"></td>
+            <td id="f5" class="light"></td>
+            <td id="g5" class="dark"></td>
+            <td id="h5" class="light"></td>
+         </tr>
+         <tr>
+            <td class="notation col">4</td>
+            <td id="a4" class="light"></td>
+            <td id="b4" class="dark"></td>
+            <td id="c4" class="light"></td>
+            <td id="d4" class="dark"></td>
+            <td id="e4" class="light"></td>
+            <td id="f4" class="dark"></td>
+            <td id="g4" class="light"></td>
+            <td id="h4" class="dark"></td>
+         </tr> 
+         <tr>
+            <td class="notation col">3</td>
+            <td id="a3" class="dark"></td>
+            <td id="b3" class="light"></td>
+            <td id="c3" class="dark"></td>
+            <td id="d3" class="light"></td>
+            <td id="e3" class="dark"></td>
+            <td id="f3" class="light"></td>
+            <td id="g3" class="dark"></td>
+            <td id="h3" class="light"></td>
+         </tr>
+         <tr>
+            <td class="notation col">2</td>
+            <td id="a2" class="light"></td>
+            <td id="b2" class="dark"></td>
+            <td id="c2" class="light"></td>
+            <td id="d2" class="dark"></td>
+            <td id="e2" class="light"></td>
+            <td id="f2" class="dark"></td>
+            <td id="g2" class="light"></td>
+            <td id="h2" class="dark"></td>
+         </tr>
+         <tr>
+            <td class="notation col">1</td>
+            <td id="a1" class="dark"></td>
+            <td id="b1" class="light"></td>
+            <td id="c1" class="dark"></td>
+            <td id="d1" class="light"></td>
+            <td id="e1" class="dark"></td>
+            <td id="f1" class="light"></td>
+            <td id="g1" class="dark"></td>
+            <td id="h1" class="light"></td>
+         </tr>
+         <tr>
+            <td class="notation col row"></td>
+            <td class="notation row">a</td>
+            <td class="notation row">b</td>
+            <td class="notation row">c</td>
+            <td class="notation row">d</td>
+            <td class="notation row">e</td>
+            <td class="notation row">f</td>
+            <td class="notation row">g</td>
+            <td class="notation row">h</td>
+         </tr> 
+      </table>
+      <div id="whiteBox"></div>
+      
+      <div id="moveButtons">
+         <input type="button" value="Previous Move" id="prevButton"/>    
+         <input type="button" value="Next Move" id="nextButton"/>
+      </div>
+     
+      <aside id="moveList">
+         <ol id="moveLog">
+         </ol>
+      </aside>
+
+   </section>
+</body>
+</html>
