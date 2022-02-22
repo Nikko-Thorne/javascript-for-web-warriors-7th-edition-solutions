@@ -1,0 +1,123 @@
+/*  JavaScript 7th Edition
+    Chapter 7
+    Hands-on Project 7-2
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+   margin-bottom: 0;
+}
+
+
+
+/*-------------------- Project Styles ------------------*/
+
+section {
+   background-color: #FFDB70;
+   margin-top: 0;
+   padding-bottom: 20px;
+}
+
+section h1 {
+   font-size: 2.8em;
+   text-align: center;
+   margin: 0;
+   padding: 20px 0;
+}
+
+div#hand {
+   background-color:#5B936C;
+   border: 5px outset #5B936c;
+   height: 280px;
+   width: 780px;
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   margin: 0 auto;
+}
+
+div#hand span {
+   display: block;
+   border: 1px solid gray;
+   height: 200px;
+   width: 134px;
+   margin: 30px 0;
+   padding: 10px;
+   text-align: center;
+   padding-top: 80px;
+   line-height: 1.2;
+   box-shadow: 3px 3px 5px gray;
+   background-color:#F0EED4;
+}
+
+input#deal {
+   display: block;
+   margin: 30px auto;
+   width: 120px;
+   font-size: 1.6em;
+   background-color: gray;
+   color: rgb(230, 230, 230);
+   letter-spacing: 0.15em;
+}
+
+div#deckStatus {
+   text-align:right;
+   width: 780px;
+   margin: 30px auto;
+   font-size: 1.1em;
+}
