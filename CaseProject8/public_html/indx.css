@@ -1,0 +1,69 @@
+head {
+
+}
+
+body {
+  background-color: white;
+  text-align: center;
+}
+
+  h1 {
+    text-align: left;
+    background: white;
+    color: black;
+    font-size: 50px;
+    font-family: times;
+    border-bottom: 10px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+   
+}
+
+
+nav {
+    font-family: times, Verdana, sans-serif;
+    width: 50%;
+    margin: auto;
+  
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* link hover */
+li a:hover {
+    background-color: grey;
+}
+
+form {
+    display: inline-block;
+}
+
+#tblChecked {
+    display: inline-block;
+    text-align: center;
+}

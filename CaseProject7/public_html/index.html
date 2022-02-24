@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <script src="classCrypto.js" defer></script>
+        <script src="userInputToArray.js" defer></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <div class="header">
+        <h1>Learn-Tech</h1>
+                <br>
+
+        
+        <!-- navbar -->
+    </div>
+        <nav class="navbar1">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">Contact Us</a></li>
+            </ul>
+        </nav>
+     
+  
+        <br><br><br><br>
+    <div id="container1">
+    <form id="form1">
+        
+        <label>Name: <input name="Name" id="nameBox" type="text"></label><br><br>
+     
+        <label>Email: <input name="Email" id="emailBox" type="text"></label> <br><br>
+      
+      <label>Phone Number
+       <input name="phoneNumber" id="phoneBox" type="tel" pattern="^\d{10}$|^(\(\d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+              required placeholder="(###) ###-####"></label>
+
+            <br><br>
+      
+            
+                <select id="subject" required>
+                    <option value="">Select Subject</option>
+                    <option value="TechSupport">Tech Support</option>
+                    <option value="Billing">Billing</option>
+                    <option value="Wholesale">Wholesale</option>
+                     <option value="Placeholder1">Place Holder 1</option>
+                      <option value="PlaceHolder2">Place Holder 2</option>
+                </select><br><br>
+   
+      
+     <textarea id="textArea1" name="textArea1" placeholder="" style="height:200px" required></textarea>
+     <br><br>
+     
+     <input type="submit" value="Submitted">
+    </form>
+    <p id="log"></p>
+</div>
+    
+        
+    </body>
+</html>
