@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 9
+      Hands-on Project 9-5
+
+      Author: 
+      Date:   
+
+      Filename: product04.html
+   -->
+   <meta charset="utf-8" />
+   <title>Hands-on Project 9-5: PolyFleece Mitts</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="order_txt.js" defer></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 9-5
+      </h1>
+   </header>
+
+   <section>
+      <nav>
+         <ul>
+            <li><a href="product01.html">ArcticBlast Mitts</a></li>
+            <li><a href="product02.html">Fingerless Gloves</a></li>
+            <li><a href="product03.html">Glomitts</a></li>
+            <li><a href="product04.html">PolyFleece Mitts</a></li>
+            <li><a href="cart.html">Your Shopping cart</a></li>
+         </ul>
+      </nav>       
+      <h1>PolyFleece Mitts</h1>
+      <p id="intro">Our PolyFleece Mitts are perfect for hiking, snowshoeing, or winter
+         walks. Made with quick-drying PolyFleece, these gloves will keep
+         your hands warm even when wet. The long cuff made of PolyFleece
+         adds an extra layer of warmth and protection.
+      </p>
+      <table id="ordertable">
+          <tr>
+             <th>Product</th>
+             <td>
+                <input id="product" name="product" type="text" value="PolyFleece Mitts" readonly="readonly" disabled />
+             </td>
+          </tr>
+          <tr>
+             <th>Price</th>
+             <td>
+                <input id="price" name="price" type="text" value="$69.95" readonly="readonly" disabled />
+             </td>
+          </tr>
+          <tr>
+             <th>Quantity</th>
+             <td>
+                <select id="quantity" name="quantity">
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="6">6</option>
+                   <option value="7">7</option>
+                   <option value="8">8</option>
+                   <option value="9">9</option>
+                   <option value="10">10</option>
+                </select>
+             </td>
+          </tr>
+          <tr>
+             <th>Size</th>
+             <td>
+                <select id="size" name="size">
+                   <option value="regular">Regular</option>
+                   <option value="large">Large</option>
+                   <option value="Xlarge">XLarge</option>
+                </select>
+             </td>
+          </tr>
+          <tr>
+             <th>Color</th>
+             <td>
+                <select id="color" name="color">
+                   <option value="black">Black</option>
+                   <option value="grey">Grey</option>
+                </select>
+             </td>
+          </tr>   
+      </table>
+      <input type="button" value="Add to Shopping Cart" id="submitButton" />
+   </section>
+</body>
+</html>
