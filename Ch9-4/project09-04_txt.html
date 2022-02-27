@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 9
+      Hands-on Project 9-4
+
+      Author: Nikko Thorne
+      Date:   02/26/2022
+
+      Filename: project09-04.html
+   -->
+   <meta charset="utf-8" />
+   <title>Hands-on Project 9-4</title>
+   <link rel="stylesheet" href="styles.css" />
+   <script src="library.js" defer></script>
+   <script src="project09-04_txt.js" defer></script>
+   
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 9-4
+      </h1>
+   </header>
+
+   <section>
+      <h1>Sliding Eight Puzzle</h1>
+      <p id="intro">
+         Arrange the blocks in numeric order from 1 to 8.
+         To move a block into the blank space, click a block adjacent to the  
+         space. Click the Start button to scramble the blocks and start the
+         timer. Your best score is shown below.
+      </p>
+      
+      <div id="slidingBlocks">
+         <div id="block1" class="block r1 c1"><img src="block1.jpg" alt="1" /></div>
+         <div id="block2" class="block r1 c2"><img src="block2.jpg" alt="2" /></div>
+         <div id="block3" class="block r1 c3"><img src="block3.jpg" alt="3" /></div> 
+         <div id="block4" class="block r2 c1"><img src="block4.jpg" alt="4" /></div> 
+         <div id="block5" class="block r2 c2"><img src="block5.jpg" alt="5" /></div>
+         <div id="block6" class="block r2 c3"><img src="block6.jpg" alt="6" /></div>
+         <div id="block7" class="block r3 c1"><img src="block7.jpg" alt="7" /></div> 
+         <div id="block8" class="block r3 c2"><img src="block8.jpg" alt="8" /></div>   
+         <div id="block0" class="block r3 c3"><img src="block0.jpg" alt="0" /></div>         
+      </div>
+      
+      <div id="controls">
+         <input type="button" id="Start" value="Start" />
+         <input type="text" id="timer" value="0" />
+      </div> 
+      
+      <p id="record">
+         Your best time is <span id="best">not yet recorded</span>
+      </p>
+   </section>
+</body>
+</html>
