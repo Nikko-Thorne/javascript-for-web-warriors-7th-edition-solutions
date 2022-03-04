@@ -1,0 +1,162 @@
+/*  JavaScript 7th Edition
+    Chapter 10
+    Hands-on Project 10-3
+
+    Style sheet Boulder Cycling Directions
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 1024px;
+   background: #F5F5F5;
+   margin: 0 auto;
+   font-family: Georgia, "Droid Serif", serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+blockquote, q {
+   quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+   margin-bottom: 0;
+}
+
+/*-------------------- Project Styles ------------------*/
+
+section {
+   background-color: #FFDB70;
+   margin-top: 0;
+   padding-bottom: 20px;
+   user-select:none;
+   height: 640px;
+}
+
+section h1 {
+   font-size: 2.8em;
+   text-align: center;
+   margin: 0;
+   padding: 20px 0 10px 0;
+}
+
+section p {
+   width: 800px;
+   margin: 0 auto;
+   font-size: 1.2em;
+   line-height: 1.3;
+   text-align: center;
+}
+
+fieldset {
+   width: 90%;
+   margin: 10px auto;
+   position: relative;
+   display: block;
+   height: 185px;
+}
+
+fieldset select#startingPoint {
+   position: absolute;
+   top: 0;
+   left: 220px;
+   width: 180px;
+}
+
+fieldset select#endingPoint {
+   position: absolute;
+   top: 0;
+   left: 460px;
+   width: 180px;
+}
+
+div#bikeMap {
+   width: 400px;
+   height: 300px;
+   border: 3px solid gray;
+   margin: 0 15px 0 70px;
+   float: left;
+}
+
+div#bikeDirections {
+   width: 400px;
+   height: 300px;
+   border: 3px solid gray;
+   margin: 0 30px 0 0;
+   float: left;
+   overflow: scroll;
+}
+
+select option:first-of-type {
+   font-size: 1.3em;
+   padding-bottom: 5px;
+   font-weight: bold;
+}

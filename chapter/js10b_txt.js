@@ -16,7 +16,7 @@ function initMap() {
    
    // Page objects
    let displayMap = document.getElementById("displayMap");
-   let routeBox =    document.getElementById("routeBox");
+   let routeBox = document.getElementById("routeBox");
    
    // Create a map to the Oak Top House 
    let oakTopHouse = {lat: 39.96118, lng: -82.99879};
