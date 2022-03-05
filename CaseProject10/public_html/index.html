@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <link rel="stylesheet" href="indx.css">
+        <script src="initMap.js" defer></script>
+         <script src="https://maps.googleapis.com/maps/api/js?v=beta&key=AIzaSyA3EgVOEdiy1a7-DhssLkB8DLmhQrioXZg&callback=initMap" defer></script>
+    </head>
+    
+    <body>
+        
+        <div class="header">
+        <h1>Learn-Tech</h1>
+                <br>
+
+        
+        <!-- navbar -->
+
+        <nav class="navbar1">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index_2.html">Contact Us</a></li>
+            </ul>
+        </nav><br><br><br>  
+        </div>
+        
+        <div class="Map">
+            <h2>security</h2>
+            <br> <p>Today we are going to learn about how we are not as safe and anonymous online as we thought we were. by clicking the button
+        below it will reveal your location</p>
+        
+        <div id="myMap">
+            
+           
+        </div> <br><br>
+        
+        <div class="customInfo">
+            <p>
+             Your location is 
+             <span id="latitude">0.00</span> latitude by
+             <span id="longitude">0.00</span> longitude by
+             <span id="altitude">0.00</span> Altitude.
+            </p>
+            <button id="yourLoc">
+            Get My Location
+            </button>
+        </div>
+        
+        
+        
+    </body>
+</html>
