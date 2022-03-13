@@ -1,0 +1,194 @@
+/*  JavaScript 7th Edition
+    Chapter 12
+    Hands-on Project 12-1
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+body > header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+   margin-bottom: 0;
+}
+
+
+
+
+
+/*-------------------- Project Styles ------------------*/
+
+section {
+   background-color: #FFDB70;
+   margin-top: 0;
+   display: flex;
+   flex-flow: row wrap;
+}
+
+section > header {
+   margin: 0;
+   padding: 10px 0;
+   width: 100%;
+   background: url("birds.jpg") center/cover no-repeat;
+
+}
+
+section > header > h1 {
+   text-align: center;
+   font-size: 3em;
+   color: white;
+   text-shadow: 0px 0px 4px black, 0px 0px 12px gray,5px 5px 20px white;   
+}
+
+section > header > nav {
+   display: block;
+   width: 60%;
+   margin: 10px auto;
+}
+
+
+ul#mainmenu > li a {
+   text-decoration: none;
+   color: ivory;
+}
+
+ul#mainmenu > li {
+   display: block;
+   width: 33.3%;
+   float: left;
+   text-align: center;
+   background-color: rgba(90,113,127,1.00);
+   box-shadow: 8px 8px 20px;
+   position: relative;
+   cursor: pointer;
+   padding: 5px 0;
+   border: 1px solid black;
+}
+
+ul#mainmenu > li > ul {
+   padding: 5px 5px;
+   top: 25px;
+   left: 0;
+   width: 100%;
+   box-shadow: 8px 8px 20px;
+   text-align: left;
+   display: none;
+   position: absolute;
+   background-color: rgba(90,113,127,1.00);
+}
+
+ul#mainmenu > li ul li {
+   padding: 6px 0;
+   line-height: 1.2;
+}
+
+ul#mainmenu > li ul li:hover {
+   background-color:rgba(84,114,178,1.00);
+   color: ivory;
+}
+section > aside {
+   flex: 1 2 100px;
+}
+
+section > article {
+   flex: 2 1 300px;
+}
+
+section > article h2 {
+   font-size: 1.5em;
+   text-align: center;
+   margin: 20px 0 30px;
+}
+
+section > article img {
+   width: 100%;
+}
+
+section > aside.calendar {
+   padding: 20px 20px 0 20px;
+}
+
+section > aside.calendar h3 {
+   font-size: 1.2em;
+   margin: 6px 0;
+   text-align: center;
+   line-height: 1.2;
+}
+
+section > aside.calendar ul {
+   margin-bottom: 24px;
+}
+
+section > aside.calendar ul li {
+   margin-bottom: 8px;
+}
+
+section > aside.testimonials {
+   padding: 20px 20px 0 20px;
+}
+
+section > aside.testimonials p {
+   font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+   font-size: 1.1em;
+   line-height: 1.3;
+   margin: 20px 0;
+}
+
+footer {
+   background-color:rgba(70,91,92,1.00);
+   padding: 15px 0;
+   text-align: center;
+   color: ivory;
+   letter-spacing: 0.13em;
+}
