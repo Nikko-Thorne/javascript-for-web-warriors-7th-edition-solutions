@@ -1,0 +1,159 @@
+/*  JavaScript 7th Edition
+    Chapter 12
+    Hands-on Project 12-4
+
+    Filename: styles.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/* reset rules */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+   line-height: 1;
+   width: 960px;
+   background: white;
+   margin: 0 auto;
+   font-family: Verdana, Geneva, sans-serif; 
+}
+
+ol, ul {
+   list-style: none;
+}
+
+/* page header */
+body > header {
+   background: #5472B2;
+   width: 100%;
+   color: #FFFFFF;
+   font-size: 48px;
+   text-align: center;
+   line-height: 1.5em;
+   margin-bottom: 0;
+}
+
+
+
+
+
+/*-------------------- Project Styles ------------------*/
+
+section {
+   background-color: #FFDB70;
+   margin-top: 0;
+   padding-top: 20px;
+   padding-bottom: 60px;
+}
+
+section > h1 {
+   text-align: center;
+   font-size: 3.3em;
+   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+   letter-spacing: 0.1em;
+   margin-bottom: 20px;
+   color: rgba(255, 255, 255, 0.6);
+   text-shadow: 2px 2px black;
+}
+
+div#slides {
+   width: 400px;
+   height: 300px;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   border: 1px solid black;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+div#slidebox {
+   width: 800px;
+   height: auto;
+   margin: 0 auto;
+   position: relative;
+}
+
+div#slidebox img#leftbutton, div#slidebox img#rightbutton {
+   position: absolute;
+   width: 60px;
+   cursor: pointer;
+   filter: drop-shadow(8px 0px 2px rgba(0,0,0, 1))  
+}
+
+div#slidebox img#leftbutton {
+   top: 100px;
+   left: 120px;  
+}
+
+div#slidebox img#rightbutton {
+   top: 100px;
+   left: 620px;  
+}
+
+div#slides > img {
+   width: 400px;
+   position: absolute;
+   top: 0px;
+}
+
+div#slides {
+   width: 400px;
+   height: 300px;
+   margin: 0 auto;
+   overflow:hidden;
+   position: relative;
+   border: 1px solid black;
+   box-shadow: 5px 5px 15px rgba(0,0,0,0.7);
+}
+
+div#slides > img#photo1 {left: 0px;}
+div#slides > img#photo2 {left: 401px;}
+div#slides > img#photo3 {left: 802px;}
+div#slides > img#photo4 {left: 1203px;}
+div#slides > img#photo5 {left: 1604px;}
+div#slides > img#photo6 {left: 2005px;}
+div#slides > img#photo7 {left: 2406px;}
+div#slides > img#photo8 {left: 2807px;}
+div#slides > img#photo9 {left: 3208px;}
+div#slides > img#photo10 {left: 3609px;}
+div#slides > img#photo11 {left: 4010px;}
+div#slides > img#photo12 {left: 4411px;}
+
+div#caption {
+   width: 80%;
+   background-color: rgba(255, 255, 255, 0.3);
+   margin: 20px auto;
+   text-align: center;
+   font-size: 1.3em;
+   line-height: 1.5em;  
+}
