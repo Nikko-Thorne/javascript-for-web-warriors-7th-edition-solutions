@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+      JavaScript 7th Edition
+      Chapter 12
+      Project 12-2
+
+      Project to convert between celsius and fahrenheit
+      Author: Nikko Thorne
+      Date:   03/13/2022
+
+      Filename: project12-02.html
+   -->
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <title>Hands-on Project 12-2</title>
+   <link rel="stylesheet" href="styles.css" /> 
+   <script src="project12-02_txt.js" defer></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 12-2
+      </h1>
+   </header>
+
+   <section>
+      <article>
+         <h2>Fahrenheit (&#176; F) to Celsius (&#176; C) converter</h2>
+         <form>
+            <div>
+               <h3>Temp in &#176; F</h3>
+               <input type="number" id="fValue" value="32" />
+            </div>
+            <div id="arrow">&harr;</div>
+            <div>
+               <h3>Temp in &#176; C</h3>
+               <input type="number" id="cValue" value="0" />            
+            </div>
+        </form>
+        <footer>
+           Enter a Fahrenheit or Celsius temperature in either input box and press Tab to convert.
+        </footer>
+      </article>
+   </section>
+</body>
+</html>
